@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "projectpython-oop-“vacancy-parser”"
+version = "0.1.0"
+description = ""
+authors = ["Геннадий <gubingm@list.ru>"]
+readme = "README.md"
+packages = [{include = "projectpython_oop_“vacancy_parser”"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pytest = "^7.3.1"
+openpyxl = "^3.1.2"
+
+
+[tool.poetry.group.src.dependencies]
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
